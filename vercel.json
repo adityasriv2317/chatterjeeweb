@@ -2,11 +2,11 @@
     "version": 2,
     "builds": [
       {
-        "src": "src/App.jsx",
+        "src": "package.json", 
         "use": "@vercel/static-build"
       },
       {
-        "src": "api/chat.js",
+        "src": "api/chat.js", 
         "use": "@vercel/node"
       }
     ],
